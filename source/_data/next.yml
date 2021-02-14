@@ -1,0 +1,197 @@
+# ============================================================= #
+# ============= Theme Core Configuration Settings ============= #
+# ============================================================= #
+
+reminder: true
+
+minify: true
+
+
+# ============================================================= #
+# ================= Site Information Settings ================= #
+# ============================================================= #
+
+favicon:
+  small: /images/favicon-16x16.png
+  medium: /images/favicon-32x32.png
+  apple_touch_icon: /images/apple-touch-icon.png
+  safari_pinned_tab: /images/logo.svg
+
+footer:
+  since: 2018
+  icon:
+    name: heart
+    animated: true
+    color: "#808080"
+  copyright: Lionel
+  powered:
+    enable: true
+    version: true
+  theme:
+    enable: true
+    version: true
+  beian:
+    enable: true
+    icp: 黑ICP备18006622号-1
+    gongan_id:
+    gongan_num:
+    gongan_icon_url:
+
+creative_commons:
+  license: by-nc-sa
+  sidebar: true
+
+
+# ============================================================= #
+# ====================== Scheme Settings ====================== #
+# ============================================================= #
+
+scheme: Gemini
+
+
+# ============================================================= #
+# ======================= Menu Settings ======================= #
+# ============================================================= #
+menu:
+  home: / || home
+  about: /about/ || user
+  #tags: /tags/ || tags
+  #categories: /categories/ || th
+  archives: /archives/ || archive
+  #notebook: /notebook/ || book
+  #photos: /photos/ || picture-o
+  #commonweal: /404/ || heartbeat
+
+menu_settings:
+  icons: true
+  badges: true
+
+
+# ============================================================= #
+# ===================== Sidebar Settings ====================== #
+# ============================================================= #
+
+sidebar:
+  onmobile: true
+
+avatar:
+  url: /images/avatar.jpg
+  rounded: false
+  rotated: false
+
+site_state: false
+
+toc:
+  enable: true
+  number: true
+  wrap: true
+
+
+# ============================================================= #
+# ======================= Post Settings ======================= #
+# ============================================================= #
+
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: false
+    another_day: true
+  categories: true
+
+symbols_count_time:
+  separated_meta: true
+  item_text_post: true
+  item_text_total: true
+  awl: 4
+  wpm: 275
+
+tag_icon: true
+
+
+# ============================================================= #
+# ==================== Misc Theme Settings ==================== #
+# ============================================================= #
+
+mobile_layout_economy: true
+
+codeblock:
+  highlight_theme: solarized
+
+back2top:
+  enable: true
+  sidebar: true
+  scrollpercent: true
+
+
+# ============================================================= #
+# ======================= SEO Settings ======================== #
+# ============================================================= #
+
+seo: true
+
+index_with_subtitle: true
+
+exturl: true
+
+
+# ============================================================= #
+# ========== Third Party Plugins & Services Settings ========== #
+# ============================================================= #
+mediumzoom: true
+
+lazyload: true
+
+# ============================================================= #
+# =================== Comments Settings ======================= #
+# ============================================================= #
+
+disqus:
+  enable: false
+  shortname: hualihai
+  count: true
+
+
+# ============================================================= #
+# ================= Statistics and Analytics ================== #
+# ============================================================= #
+
+busuanzi_count:
+  enable: true
+  total_visitors: true
+  total_visitors_icon: user
+  total_views: true
+  total_views_icon: eye
+  post_views: true
+  post_views_icon: eye
+
+
+# ============================================================= #
+# ====================== Search Services ====================== #
+# ============================================================= #
+
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+
+
+# ============================================================= #
+# ======================== Tag Settings ======================== #
+# ============================================================= #
+
+note:
+  style: simple
+  icons: true
+  light_bg_offset: 0
+
+tabs:
+  transition:
+    tabs: true
+    labels: true
+
+pdf:
+  enable: true
+  height: 800px
