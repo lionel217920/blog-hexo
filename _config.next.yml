@@ -1,21 +1,71 @@
-# ============================================================= #
-# ============= Theme Core Configuration Settings ============= #
-# ============================================================= #
-
-reminder: true
+# ---------------------------------------------------------------
+# Theme Core Configuration Settings
+# See: https://theme-next.js.org/docs/theme-settings/
+# ---------------------------------------------------------------
 
 minify: true
 
+# ---------------------------------------------------------------
+# Scheme Settings
+# ---------------------------------------------------------------
 
-# ============================================================= #
-# ================= Site Information Settings ================= #
-# ============================================================= #
+scheme: Gemini
+
+# Dark Mode
+darkmode: true
+
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
 
 favicon:
   small: /images/favicon-16x16.png
   medium: /images/favicon-32x32.png
   apple_touch_icon: /images/apple-touch-icon.png
   safari_pinned_tab: /images/logo.svg
+
+creative_commons:
+  license: by-nc-sa
+  sidebar: true
+
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+menu:
+  home: / || home
+  about: /about/ || user
+  #tags: /tags/ || tags
+  #categories: /categories/ || th
+  archives: /archives/ || archive
+  #notebook: /notebook/ || book
+  #photos: /photos/ || picture-o
+  #commonweal: /404/ || heartbeat
+
+menu_settings:
+  icons: true
+  badges: true
+
+# ---------------------------------------------------------------
+# Sidebar Settings
+# See: https://theme-next.js.org/docs/theme-settings/sidebar
+# ---------------------------------------------------------------
+
+avatar:
+  url: /images/avatar.jpg
+  rounded: false
+  rotated: false
+
+site_state: false
+
+social:
+  GitHub: https://github.com/lionel217920 || fab fa-github
+
+# ---------------------------------------------------------------
+# Footer Settings
+# See: https://theme-next.js.org/docs/theme-settings/footer
+# ---------------------------------------------------------------
 
 footer:
   since: 2018
@@ -37,59 +87,10 @@ footer:
     gongan_num:
     gongan_icon_url:
 
-creative_commons:
-  license: by-nc-sa
-  sidebar: true
-
-
-# ============================================================= #
-# ====================== Scheme Settings ====================== #
-# ============================================================= #
-
-scheme: Gemini
-
-
-# ============================================================= #
-# ======================= Menu Settings ======================= #
-# ============================================================= #
-menu:
-  home: / || home
-  about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
-  archives: /archives/ || archive
-  #notebook: /notebook/ || book
-  #photos: /photos/ || picture-o
-  #commonweal: /404/ || heartbeat
-
-menu_settings:
-  icons: true
-  badges: true
-
-
-# ============================================================= #
-# ===================== Sidebar Settings ====================== #
-# ============================================================= #
-
-sidebar:
-  onmobile: true
-
-avatar:
-  url: /images/avatar.jpg
-  rounded: false
-  rotated: false
-
-site_state: false
-
-toc:
-  enable: true
-  number: true
-  wrap: true
-
-
-# ============================================================= #
-# ======================= Post Settings ======================= #
-# ============================================================= #
+# ---------------------------------------------------------------
+# Post Settings
+# See: https://theme-next.js.org/docs/theme-settings/posts
+# ---------------------------------------------------------------
 
 post_meta:
   item_text: true
@@ -108,43 +109,33 @@ symbols_count_time:
 
 tag_icon: true
 
-
-# ============================================================= #
-# ==================== Misc Theme Settings ==================== #
-# ============================================================= #
+# ---------------------------------------------------------------
+# Misc Theme Settings
+# See: https://theme-next.js.org/docs/theme-settings/miscellaneous
+# ---------------------------------------------------------------
 
 mobile_layout_economy: true
-
-codeblock:
-  highlight_theme: solarized
 
 back2top:
   enable: true
   sidebar: true
   scrollpercent: true
 
+# ---------------------------------------------------------------
+# Third Party Plugins & Services Settings
+# See: https://theme-next.js.org/docs/third-party-services/
+# More plugins: https://github.com/next-theme/awesome-next
+# You may need to install the corresponding dependency packages
+# ---------------------------------------------------------------
 
-# ============================================================= #
-# ======================= SEO Settings ======================== #
-# ============================================================= #
-
-seo: true
-
-index_with_subtitle: true
-
-exturl: true
-
-
-# ============================================================= #
-# ========== Third Party Plugins & Services Settings ========== #
-# ============================================================= #
 mediumzoom: true
 
 lazyload: true
 
-# ============================================================= #
-# =================== Comments Settings ======================= #
-# ============================================================= #
+# ---------------------------------------------------------------
+# Comments Settings
+# See: https://theme-next.js.org/docs/third-party-services/comments
+# ---------------------------------------------------------------
 
 disqus:
   enable: false
@@ -152,9 +143,10 @@ disqus:
   count: true
 
 
-# ============================================================= #
-# ================= Statistics and Analytics ================== #
-# ============================================================= #
+# ---------------------------------------------------------------
+# Statistics and Analytics
+# See: https://theme-next.js.org/docs/third-party-services/statistics-and-analytics
+# ---------------------------------------------------------------
 
 busuanzi_count:
   enable: true
@@ -165,10 +157,10 @@ busuanzi_count:
   post_views: true
   post_views_icon: eye
 
-
-# ============================================================= #
-# ====================== Search Services ====================== #
-# ============================================================= #
+# ---------------------------------------------------------------
+# Search Services
+# See: https://theme-next.js.org/docs/third-party-services/search-services
+# ---------------------------------------------------------------
 
 local_search:
   enable: true
@@ -177,10 +169,10 @@ local_search:
   unescape: false
   preload: false
 
-
-# ============================================================= #
-# ======================== Tag Settings ======================== #
-# ============================================================= #
+# ---------------------------------------------------------------
+# Tags Settings
+# See: https://theme-next.js.org/docs/tag-plugins/
+# ---------------------------------------------------------------
 
 note:
   style: simple
