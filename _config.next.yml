@@ -36,12 +36,12 @@ creative_commons:
 menu:
   home: / || home
   about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  tags: /tags/ || tags
+  categories: /categories/ || th
   archives: /archives/ || archive
   #notebook: /notebook/ || book
   #photos: /photos/ || picture-o
-  #commonweal: /404/ || heartbeat
+  commonweal: /404/ || heartbeat
 
 menu_settings:
   icons: true
@@ -115,6 +115,14 @@ tag_icon: true
 # ---------------------------------------------------------------
 
 mobile_layout_economy: true
+
+codeblock:
+  theme:
+    light: default
+    dark: tomorrow-night
+  copy_button:
+    enable: false
+    style: default
 
 back2top:
   enable: true

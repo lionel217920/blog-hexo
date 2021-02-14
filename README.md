@@ -5,40 +5,16 @@
 - Hexo版本5.3.0
 - NexT版本8.2.1
 
-## Hexo简单介绍
+NexT默认配置我拷贝了一份放在根目录下，`_config.next_bak.yml`文件
 
-没啥好说的，看看官方文档就好了。
-
-## NexT简单介绍
-
-If you're using Hexo 5.0 or later, the simplest way to install is through npm.
-
-1. Please ensure you are using Hexo 5.0 (or later).
-
-2. Create a config file in site's root directory, e.g. _config.next.yml.
-
-3. Copy needed NexT theme options from theme config file into this config file
-
+NexT默认配置文件目录地址：
 
 ```bash
-cp node_modules/hexo-theme-next/_config.yml _config.next.yml
+cd node_modules/hexo-theme-next/_config.yml
 ```
 
 ## 整合GitHub Pages
-
-暂存：
-
-https://blog.51cto.com/13872978/2318972?source=dra
-
-https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html
-
-https://www.ioiox.com/archives/69.html
-
+TODO
 
 ## 自动化部署
-
-如何自动化部署
-
-https://circleci.com/
-
-https://tc9011.com/2019/01/18/%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E4%BD%BF%E7%94%A8netlify%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%8F%8A%E9%83%A8%E7%BD%B2%E8%87%AA%E5%8A%A8%E5%8C%96/
+TODO
